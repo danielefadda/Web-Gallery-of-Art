@@ -1,0 +1,2531 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    
+	<title>minimalize - One Page Theme </title>
+    
+    <meta name="description" content="" />
+	<meta name="author" content="" />
+    
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- **Favicon** -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- **CSS - stylesheets** -->
+            
+    <link id="default-css" href="style.css" rel="stylesheet" media="all" />
+    <link id="shortcodes-css" href="css/shortcode.css" rel="stylesheet" media="all" />        
+	<link rel="stylesheet" href="css/settings.css" type="text/css" media="screen"/>    
+    <link id="skin-css" href="css/meanmenu.css" rel="stylesheet" media="all" />
+    <link href="css/animations.css" rel="stylesheet" media="all" />
+    
+    <link href="css/responsive.css" rel="stylesheet" media="all" />
+    
+    <!-- **Font Awesome** -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    
+	<!-- **Loader** -->
+	<link href="css/pace-theme-center-radar.css" rel="stylesheet" type="text/css" />
+    
+    <script src="js/modernizr-2.6.2.min.js"></script>	
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+    
+</head>
+
+<body>
+	<div class="cover"></div>
+	<!-- Wrapper div starts here -->
+	<div class="wrapper light-bg">
+		<div id="home" class="content below-menu"> 
+        	<div class="slidergridrow">
+            <!-- Item 1 *1 -->
+            <div class="slidergridcol">
+            
+                <div id="rev_slider_11_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="background-color:#E9E9E9;padding:0px;margin:0px;float:left;">
+                
+                    <div id="rev_slider_11_1" class="rev_slider fullwidthabanner" style="display:none;max-height:360px;height:360px;">
+                        <ul>
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="2000" data-delay="7000"  data-saveperformance="off" > 
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="a1"  data-bgposition="center center" data-bgfit="cover" 
+                                data-bgrepeat="no-repeat"></li>
+                                
+                            <li data-transition="parallaxtoright" data-slotamount="1" data-masterspeed="2000" data-delay="7000"  data-saveperformance="off" > 
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="A1"  data-bgposition="center center" data-bgfit="cover"
+                                 data-bgrepeat="no-repeat"></li>
+                                 
+                            <li data-transition="parallaxtoright" data-slotamount="1" data-masterspeed="2000" data-delay="7000"  data-saveperformance="off" > 
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="1-a"  data-bgposition="left top" data-bgfit="cover" 
+                                data-bgrepeat="no-repeat"></li>
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                    </div>
+                  </div>
+                  
+				<script type="text/javascript">
+                
+					/******************************************
+					-	PREPARE PLACEHOLDER FOR SLIDER	-
+					******************************************/
+					
+					
+					var setREVStartSize = function() {
+					var	tpopt = new Object();
+						tpopt.startwidth = 640;
+						tpopt.startheight = 360;
+						tpopt.container = jQuery('#rev_slider_11_1');
+						tpopt.fullScreen = "off";
+						tpopt.forceFullWidth="off";
+					
+					tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+					};
+					
+					/* CALL PLACEHOLDER */
+					setREVStartSize();
+					
+					
+					var tpj=jQuery;
+					tpj.noConflict();
+					var revapi11;
+					
+					tpj(document).ready(function() {
+					
+					if(tpj('#rev_slider_11_1').revolution == undefined)
+					revslider_showDoubleJqueryError('#rev_slider_11_1');
+					else
+					revapi11 = tpj('#rev_slider_11_1').show().revolution(
+					{
+						dottedOverlay:"none",
+						delay:9000,
+						startwidth:640,
+						startheight:360,
+						hideThumbs:200,
+					
+						thumbWidth:100,
+						thumbHeight:50,
+						thumbAmount:3,
+					
+						navigationType:"none",
+						navigationArrows:"none",
+						navigationStyle:"round",
+					
+						touchenabled:"on",
+						onHoverStop:"off",
+					
+						swipe_velocity: 0.7,
+						swipe_min_touches: 1,
+						swipe_max_touches: 1,
+						drag_block_vertical: false,
+						
+						
+						keyboardNavigation:"off",
+					
+						navigationHAlign:"center",
+						navigationVAlign:"bottom",
+						navigationHOffset:0,
+						navigationVOffset:20,
+					
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+					
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+					
+						shadow:0,
+						fullWidth:"on",
+						fullScreen:"off",
+					
+						spinner:"spinner2",
+					
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+					
+						shuffle:"off",
+					
+						autoHeight:"off",
+						forceFullWidth:"off",
+						
+						
+						hideTimerBar:"on",
+						hideThumbsOnMobile:"off",
+						hideNavDelayOnMobile:1500,
+						hideBulletsOnMobile:"off",
+						hideArrowsOnMobile:"off",
+						hideThumbsUnderResolution:0,
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						startWithSlide:0					
+						});
+					revapi11.bind('revolution.slide.onchange',function (e,data) {
+					for (i=12;i<20;i++) {
+					setTimeout(function(u) {	
+					eval('revapi'+u).revshowslide(data.slideIndex);
+					},(i-11)*200,i);
+					
+					}
+					});
+					});	/*ready*/
+                
+                </script>
+             </div>
+             <!-- Item 1 *1 End -->
+             
+             <!-- Item 1*2 -->
+             <div class="slidergridcol">
+                <div id="rev_slider_12_2_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="background-color:#E9E9E9;padding:0px;margin:0px;float:left;">
+                    
+                    <div id="rev_slider_12_2" class="rev_slider fullwidthabanner" style="display:none;max-height:360px;height:360px;">
+                        <ul>
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="2000" data-delay="7200"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="a2"  data-bgposition="center center" 
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                                
+                            <li data-transition="parallaxtoright" data-slotamount="1" data-masterspeed="2000" data-delay="7200"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="A2"  data-bgposition="center center" 
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                            
+                            <li data-transition="parallaxtoright" data-slotamount="1" data-masterspeed="2000" data-delay="7200"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="1-b"  data-bgposition="center top" 
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+                     </div>
+                    <script type="text/javascript">
+        
+                        /******************************************
+                            -	PREPARE PLACEHOLDER FOR SLIDER	-
+                        ******************************************/
+                        
+        
+                        var setREVStartSize = function() {
+                            var	tpopt = new Object();
+                                tpopt.startwidth = 640;
+                                tpopt.startheight = 360;
+                                tpopt.container = jQuery('#rev_slider_12_2');
+                                tpopt.fullScreen = "off";
+                                tpopt.forceFullWidth="off";
+        
+                            tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+                        };
+        
+                        /* CALL PLACEHOLDER */
+                        setREVStartSize();
+        
+        
+                        var tpj=jQuery;
+                        tpj.noConflict();
+                        var revapi12;
+        
+                        tpj(document).ready(function() {
+        
+                        if(tpj('#rev_slider_12_2').revolution == undefined)
+                            revslider_showDoubleJqueryError('#rev_slider_12_2');
+                        else
+                           revapi12 = tpj('#rev_slider_12_2').show().revolution(
+                            {
+                                dottedOverlay:"none",
+                                delay:9000,
+                                startwidth:640,
+                                startheight:360,
+                                hideThumbs:200,
+        
+                                thumbWidth:100,
+                                thumbHeight:50,
+                                thumbAmount:3,
+        
+                                navigationType:"none",
+                                navigationArrows:"none",
+                                navigationStyle:"round",
+        
+                                touchenabled:"on",
+                                onHoverStop:"off",
+        
+                                swipe_velocity: 0.7,
+                                swipe_min_touches: 1,
+                                swipe_max_touches: 1,
+                                drag_block_vertical: false,
+                                
+                                
+                                keyboardNavigation:"off",
+        
+                                navigationHAlign:"center",
+                                navigationVAlign:"bottom",
+                                navigationHOffset:0,
+                                navigationVOffset:20,
+        
+                                soloArrowLeftHalign:"left",
+                                soloArrowLeftValign:"center",
+                                soloArrowLeftHOffset:20,
+                                soloArrowLeftVOffset:0,
+        
+                                soloArrowRightHalign:"right",
+                                soloArrowRightValign:"center",
+                                soloArrowRightHOffset:20,
+                                soloArrowRightVOffset:0,
+        
+                                shadow:0,
+                                fullWidth:"on",
+                                fullScreen:"off",
+        
+                                spinner:"spinner2",
+        
+                                stopLoop:"on",
+                                stopAfterLoops:0,
+                                stopAtSlide:1,
+        
+                                shuffle:"off",
+        
+                                autoHeight:"off",
+                                forceFullWidth:"off",
+                                
+                                
+                                hideTimerBar:"on",
+                                hideThumbsOnMobile:"off",
+                                hideNavDelayOnMobile:1500,
+                                hideBulletsOnMobile:"off",
+                                hideArrowsOnMobile:"off",
+                                hideThumbsUnderResolution:0,
+								hideSliderAtLimit:0,
+                                hideCaptionAtLimit:0,
+                                hideAllCaptionAtLilmit:0,
+                                startWithSlide:0					
+								});
+                        });	/*ready*/
+        
+                </script>
+             </div>
+             <!-- Item 1*2 -->
+             
+             <!-- Item 1*3 -->
+             <div class="slidergridcol">
+                <div id="rev_slider_13_3_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="background-color:#E9E9E9;padding:0px; margin:0px; float:left;">
+                    
+                    <div id="rev_slider_13_3" class="rev_slider fullwidthabanner" style="display:none;max-height:360px;height:360px;">
+                        <ul>
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="2000" data-delay="7400"  data-saveperformance="off">
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="a3"  data-bgposition="center center" 
+                                    data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                            <li data-transition="parallaxtoright" data-slotamount="1" data-masterspeed="2000" data-delay="7400"  data-saveperformance="off">
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="A3"  data-bgposition="center center" 
+                                    data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                            <li data-transition="parallaxtoright" data-slotamount="1" data-masterspeed="2000" data-delay="7400"  data-saveperformance="off">
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="1-c"  data-bgposition="right top" data-bgfit="cover" 
+                                    data-bgrepeat="no-repeat"></li>
+                         </ul>
+                         <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+                    </div>
+                    <script type="text/javascript">
+        
+                        /******************************************
+                            -	PREPARE PLACEHOLDER FOR SLIDER	-
+                        ******************************************/
+                        
+        
+                        var setREVStartSize = function() {
+                            var	tpopt = new Object();
+                                tpopt.startwidth = 640;
+                                tpopt.startheight = 360;
+                                tpopt.container = jQuery('#rev_slider_13_3');
+                                tpopt.fullScreen = "off";
+                                tpopt.forceFullWidth="off";
+        
+                            tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+                        };
+        
+                        /* CALL PLACEHOLDER */
+                        setREVStartSize();
+        
+        
+                        var tpj=jQuery;
+                        tpj.noConflict();
+                        var revapi13;
+        
+                        tpj(document).ready(function() {
+        
+                        if(tpj('#rev_slider_13_3').revolution == undefined)
+                            revslider_showDoubleJqueryError('#rev_slider_13_3');
+                        else
+                           revapi13 = tpj('#rev_slider_13_3').show().revolution(
+                            {
+                                dottedOverlay:"none",
+                                delay:9000,
+                                startwidth:640,
+                                startheight:360,
+                                hideThumbs:200,
+        
+                                thumbWidth:100,
+                                thumbHeight:50,
+                                thumbAmount:3,
+        
+                                navigationType:"none",
+                                navigationArrows:"none",
+                                navigationStyle:"round",
+        
+                                touchenabled:"on",
+                                onHoverStop:"off",
+        
+                                swipe_velocity: 0.7,
+                                swipe_min_touches: 1,
+                                swipe_max_touches: 1,
+                                drag_block_vertical: false,
+                                
+                                
+                                keyboardNavigation:"off",
+        
+                                navigationHAlign:"center",
+                                navigationVAlign:"bottom",
+                                navigationHOffset:0,
+                                navigationVOffset:20,
+        
+                                soloArrowLeftHalign:"left",
+                                soloArrowLeftValign:"center",
+                                soloArrowLeftHOffset:20,
+                                soloArrowLeftVOffset:0,
+        
+                                soloArrowRightHalign:"right",
+                                soloArrowRightValign:"center",
+                                soloArrowRightHOffset:20,
+                                soloArrowRightVOffset:0,
+        
+                                shadow:0,
+                                fullWidth:"on",
+                                fullScreen:"off",
+        
+                                spinner:"spinner2",
+        
+                                stopLoop:"on",
+                                stopAfterLoops:0,
+                                stopAtSlide:1,
+        
+                                shuffle:"off",
+        
+                                autoHeight:"off",
+                                forceFullWidth:"off",
+                                
+                                
+                                hideTimerBar:"on",
+                                hideThumbsOnMobile:"off",
+                                hideNavDelayOnMobile:1500,
+                                hideBulletsOnMobile:"off",
+                                hideArrowsOnMobile:"off",
+                                hideThumbsUnderResolution:0,
+								hideSliderAtLimit:0,
+                                hideCaptionAtLimit:0,
+                                hideAllCaptionAtLilmit:0,
+                                startWithSlide:0					
+								});
+                        });	/*ready*/
+        
+                    </script>
+             </div>
+             <!-- Item 1*3 -->
+        </div><!-- Row 1 -->
+        
+        <!-- Row 2 -->
+        <div class="slidergridrow">
+            <!-- Item 2*1 -->
+            <div class="slidergridcol">
+                <div id="rev_slider_14_4_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="background-color:#E9E9E9;padding:0px;margin:0px;float:left;">
+                    
+                    <div id="rev_slider_14_4" class="rev_slider fullwidthabanner" style="display:none;max-height:360px;height:360px;">
+                        <ul>
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="2000" data-delay="7600"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="b1"  data-bgposition="center center" 
+                                     data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                                     
+                            <li data-transition="parallaxtoleft" data-slotamount="1" data-masterspeed="2000" data-delay="7600"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="B1"  data-bgposition="center center" 
+                                     data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                            
+                            <li data-transition="parallaxtoleft" data-slotamount="1" data-masterspeed="2000" data-delay="7600"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="2-a"  data-bgposition="left center" 
+                                    data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                     </div>
+                </div>
+                <script type="text/javascript">
+                     
+        
+                        /******************************************
+                            -	PREPARE PLACEHOLDER FOR SLIDER	-
+                        ******************************************/
+                        
+        
+                        var setREVStartSize = function() {
+                            var	tpopt = new Object();
+                                tpopt.startwidth = 640;
+                                tpopt.startheight = 360;
+                                tpopt.container = jQuery('#rev_slider_14_4');
+                                tpopt.fullScreen = "off";
+                                tpopt.forceFullWidth="off";
+        
+                            tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+                        };
+        
+                        /* CALL PLACEHOLDER */
+                        setREVStartSize();
+        
+        
+                        var tpj=jQuery;
+                        tpj.noConflict();
+                        var revapi14;
+        
+                        tpj(document).ready(function() {
+        
+                        if(tpj('#rev_slider_14_4').revolution == undefined)
+                            revslider_showDoubleJqueryError('#rev_slider_14_4');
+                        else
+                           revapi14 = tpj('#rev_slider_14_4').show().revolution(
+                            {
+                                dottedOverlay:"none",
+                                delay:9000,
+                                startwidth:640,
+                                startheight:360,
+                                hideThumbs:200,
+        
+                                thumbWidth:100,
+                                thumbHeight:50,
+                                thumbAmount:3,
+        
+                                navigationType:"none",
+                                navigationArrows:"none",
+                                navigationStyle:"round",
+        
+                                touchenabled:"on",
+                                onHoverStop:"off",
+        
+                                swipe_velocity: 0.7,
+        
+                                swipe_min_touches: 1,
+                                swipe_max_touches: 1,
+                                drag_block_vertical: false,
+                                
+                                
+                                keyboardNavigation:"off",
+        
+                                navigationHAlign:"center",
+                                navigationVAlign:"bottom",
+                                navigationHOffset:0,
+                                navigationVOffset:20,
+        
+                                soloArrowLeftHalign:"left",
+                                soloArrowLeftValign:"center",
+                                soloArrowLeftHOffset:20,
+                                soloArrowLeftVOffset:0,
+        
+                                soloArrowRightHalign:"right",
+                                soloArrowRightValign:"center",
+                                soloArrowRightHOffset:20,
+                                soloArrowRightVOffset:0,
+        
+                                shadow:0,
+                                fullWidth:"on",
+                                fullScreen:"off",
+        
+                                spinner:"spinner2",
+        
+                                stopLoop:"on",
+                                stopAfterLoops:0,
+                                stopAtSlide:1,
+        
+                                shuffle:"off",
+        
+                                autoHeight:"off",
+                                forceFullWidth:"off",
+                                
+                                
+                                hideTimerBar:"on",
+                                hideThumbsOnMobile:"off",
+                                hideNavDelayOnMobile:1500,
+                                hideBulletsOnMobile:"off",
+                                hideArrowsOnMobile:"off",
+                                hideThumbsUnderResolution:0,
+								hideSliderAtLimit:0,
+                                hideCaptionAtLimit:0,
+                                hideAllCaptionAtLilmit:0,
+                                startWithSlide:0					
+								});
+                        });	/*ready*/
+        
+                    </script>
+            </div>
+            <!-- Item 2*1 -->
+            
+            <!-- Item 2*2 -->
+            <div class="slidergridcol">
+                <div id="rev_slider_15_5_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px;background-color:#E9E9E9;padding:0px; float:left;">
+                     
+                     <div id="rev_slider_15_5" class="rev_slider fullwidthabanner" style="display:none;max-height:360px;height:360px;">
+                        <ul>
+                        
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="2000" data-delay="7800"  data-saveperformance="off">
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="b2"  data-bgposition="center center" 
+                                     data-bgfit="cover" data-bgrepeat="no-repeat">
+                                     
+                                     <!-- LAYER NR. 1 -->
+                                     <div class="tp-caption blackbgfull customin fadeout tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="0"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="500"
+                                     data-start="2000"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-endspeed="500"
+                                     style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;"></div>
+                                     
+                                     <!-- LAYER NR. 2 -->
+                                     <div class="tp-caption light_heavy_70 customin stt tp-resizeme"
+                                     data-x="center" data-hoffset="17"
+                                     data-y="center" data-voffset="-3"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="1000"
+                                     data-start="2300"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-end="4500"
+                                     data-endspeed="500"
+                                     data-endeasing="Power4.easeInOut"
+                                     style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">HTML<br/><span style="font-weight:100; line-height:100px;">Multipurpose</span></div>
+                                     
+                                     <!-- LAYER NR. 3 -->
+                                     <div class="tp-caption light_heavy_34 customin fadeout tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="-60"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="300"
+                                     data-start="5000"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-endspeed="500"
+                                     style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">6 <span style="font-weight:300;">Header Style</span></div>
+                                     
+                                     <!-- LAYER NR. 4 -->
+                                     <div class="tp-caption light_heavy_34 customin fadeout tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="0"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="300"
+                                     data-start="5300"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-endspeed="500"
+                                     style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Dark <span style="font-weight:300;">&  Light Version</span></div>
+                                     
+                                     <!-- LAYER NR. 5 -->
+                                     <div class="tp-caption light_heavy_34 customin fadeout tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="60"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="300"
+                                     data-start="5600"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-endspeed="500"
+                                     style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">$12 <span style="font-weight:300;">Slider Included</span></div>
+                            </li>
+                            
+                            
+                            <li data-transition="parallaxtoleft" data-slotamount="1" data-masterspeed="2000" data-delay="7800"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="B2"  data-bgposition="center center" 
+                                     data-bgfit="cover" data-bgrepeat="no-repeat">
+                                     
+                                     <!-- LAYERS -->
+                                     <!-- LAYER NR. 1 -->
+                                     <div class="tp-caption blackbgfull customin fadeout tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="0"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="500"
+                                     data-start="2000"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-endspeed="500"
+                                     style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;"></div>
+                                     
+                                     <!-- LAYER NR. 2 -->
+                                     <div class="tp-caption light_heavy_70 customin stt tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="0"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="1000"
+                                     data-start="2300"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-end="4500"
+                                     data-endspeed="500"
+                                     data-endeasing="Power4.easeInOut"
+                                     style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">FEATURES<br/><span style="font-weight:100;">Unique<br/>Elements</span></div>
+                                     
+                                     <!-- LAYER NR. 3 -->
+                                     <div class="tp-caption light_heavy_34 customin fadeout tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="-60"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="300"
+                                     data-start="5000"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-endspeed="500"
+                                     style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><span style="font-weight:300;">Masonry</span> Blog</div>
+                                     
+                                     <!-- LAYER NR. 4 -->
+                                     <div class="tp-caption light_heavy_34 customin fadeout tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="0"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="300"
+                                     data-start="5300"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-endspeed="500"
+                                     style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;"><span style="font-weight:300;">Creative </span> Portfolio</div>
+                                     
+                                     <!-- LAYER NR. 5 -->
+                                     <div class="tp-caption light_heavy_34 customin fadeout tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="60"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="300"
+                                     data-start="5600"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-endspeed="500"
+                                     style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;"><span style="font-weight:300;">Parallax</span> Divisions</div>
+                            </li>
+                            
+                            <li data-transition="parallaxtoleft" data-slotamount="1" data-masterspeed="2000" data-delay="7800"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="2-b"  data-bgposition="center center" 
+                                     data-bgfit="cover" data-bgrepeat="no-repeat">
+                                     
+                                     <!-- LAYERS -->
+                                     <!-- LAYER NR. 1 -->
+                                     <div class="tp-caption blackbgfull customin fadeout tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="0"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="500"
+                                     data-start="2000"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-endspeed="500"
+                                     style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;"></div>
+                                     
+                                     <!-- LAYER NR. 2 -->
+                                     <div class="tp-caption light_heavy_70 customin stt tp-resizeme"
+                                     data-x="center" data-hoffset="-5"
+                                     data-y="center" data-voffset="-2"
+                                     data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                     data-speed="1000"
+                                     data-start="2300"
+                                     data-easing="Power4.easeOut"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.1"
+                                     data-endelementdelay="0.1"
+                                     data-endspeed="500"
+                                     data-endeasing="Power4.easeInOut"
+                                     style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Display<br/><span style="font-weight:100;">Your Portfolio</span></div>
+                            </li>
+                         </ul>
+                         <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+                     </div>
+                     <script type="text/javascript">
+        
+                        /******************************************
+                            -	PREPARE PLACEHOLDER FOR SLIDER	-
+                        ******************************************/
+                        
+        
+                        var setREVStartSize = function() {
+                            var	tpopt = new Object();
+                                tpopt.startwidth = 640;
+                                tpopt.startheight = 360;
+                                tpopt.container = jQuery('#rev_slider_15_5');
+                                tpopt.fullScreen = "off";
+                                tpopt.forceFullWidth="off";
+        
+                            tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+                        };
+        
+                        /* CALL PLACEHOLDER */
+                        setREVStartSize();
+        
+        
+                        var tpj=jQuery;
+                        tpj.noConflict();
+                        var revapi15;
+        
+                        tpj(document).ready(function() {
+        
+                        if(tpj('#rev_slider_15_5').revolution == undefined)
+                            revslider_showDoubleJqueryError('#rev_slider_15_5');
+                        else
+                           revapi15 = tpj('#rev_slider_15_5').show().revolution(
+                            {
+                                dottedOverlay:"none",
+                                delay:9000,
+                                startwidth:640,
+                                startheight:360,
+                                hideThumbs:200,
+        
+                                thumbWidth:100,
+                                thumbHeight:50,
+                                thumbAmount:3,
+        
+                                navigationType:"none",
+                                navigationArrows:"none",
+                                navigationStyle:"round",
+        
+                                touchenabled:"on",
+                                onHoverStop:"off",
+        
+                                swipe_velocity: 0.7,
+                                swipe_min_touches: 1,
+                                swipe_max_touches: 1,
+                                drag_block_vertical: false,
+                                
+                                
+                                keyboardNavigation:"off",
+        
+                                navigationHAlign:"center",
+                                navigationVAlign:"bottom",
+                                navigationHOffset:0,
+                                navigationVOffset:20,
+        
+                                soloArrowLeftHalign:"left",
+                                soloArrowLeftValign:"center",
+                                soloArrowLeftHOffset:20,
+                                soloArrowLeftVOffset:0,
+        
+                                soloArrowRightHalign:"right",
+                                soloArrowRightValign:"center",
+                                soloArrowRightHOffset:20,
+                                soloArrowRightVOffset:0,
+        
+                                shadow:0,
+                                fullWidth:"on",
+                                fullScreen:"off",
+        
+                                spinner:"spinner2",
+        
+                                stopLoop:"on",
+                                stopAfterLoops:0,
+                                stopAtSlide:1,
+        
+                                shuffle:"off",
+        
+                                autoHeight:"off",
+                                forceFullWidth:"off",
+                                
+                                
+                                hideTimerBar:"on",
+                                hideThumbsOnMobile:"off",
+                                hideNavDelayOnMobile:1500,
+                                hideBulletsOnMobile:"off",
+                                hideArrowsOnMobile:"off",
+                                hideThumbsUnderResolution:0,
+								hideSliderAtLimit:0,
+                                hideCaptionAtLimit:0,
+                                hideAllCaptionAtLilmit:0,
+                                startWithSlide:0					
+								});
+                        });	/*ready*/
+        
+                    </script>
+            </div>
+            <!-- Item 2*2 -->
+            
+            <!-- Item 2*3 -->
+            <div class="slidergridcol">
+                <div id="rev_slider_16_6_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px;background-color:#E9E9E9;padding:0px; float:left;">
+                    
+                    <div id="rev_slider_16_6" class="rev_slider fullwidthabanner" style="display:none;max-height:360px;height:360px;">
+                        <ul>
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="2000" data-delay="7800"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="b3"  data-bgposition="center center" 
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                                
+                            <li data-transition="parallaxtoleft" data-slotamount="1" data-masterspeed="2000" data-delay="8000"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="B3"  data-bgposition="center center" 
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                            
+                            <li data-transition="parallaxtoleft" data-slotamount="1" data-masterspeed="2000" data-delay="8000"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="2-c"  data-bgposition="right center"
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                    </div>
+                 </div>
+                 
+                <script type="text/javascript">
+        
+                        /******************************************
+                            -	PREPARE PLACEHOLDER FOR SLIDER	-
+                        ******************************************/
+                        
+        
+                        var setREVStartSize = function() {
+                            var	tpopt = new Object();
+                                tpopt.startwidth = 640;
+                                tpopt.startheight = 360;
+                                tpopt.container = jQuery('#rev_slider_16_6');
+                                tpopt.fullScreen = "off";
+                                tpopt.forceFullWidth="off";
+        
+                            tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+                        };
+        
+                        /* CALL PLACEHOLDER */
+                        setREVStartSize();
+        
+        
+                        var tpj=jQuery;
+                        tpj.noConflict();
+                        var revapi16;
+        
+                        tpj(document).ready(function() {
+        
+                        if(tpj('#rev_slider_16_6').revolution == undefined)
+                            revslider_showDoubleJqueryError('#rev_slider_16_6');
+                        else
+                           revapi16 = tpj('#rev_slider_16_6').show().revolution(
+                            {
+                                dottedOverlay:"none",
+                                delay:9000,
+                                startwidth:640,
+                                startheight:360,
+                                hideThumbs:200,
+        
+                                thumbWidth:100,
+                                thumbHeight:50,
+                                thumbAmount:3,
+        
+                                navigationType:"none",
+                                navigationArrows:"none",
+                                navigationStyle:"round",
+        
+                                touchenabled:"on",
+                                onHoverStop:"off",
+        
+                                swipe_velocity: 0.7,
+                                swipe_min_touches: 1,
+                                swipe_max_touches: 1,
+                                drag_block_vertical: false,
+                                
+                                
+                                keyboardNavigation:"off",
+        
+                                navigationHAlign:"center",
+                                navigationVAlign:"bottom",
+                                navigationHOffset:0,
+                                navigationVOffset:20,
+        
+                                soloArrowLeftHalign:"left",
+                                soloArrowLeftValign:"center",
+                                soloArrowLeftHOffset:20,
+                                soloArrowLeftVOffset:0,
+        
+                                soloArrowRightHalign:"right",
+                                soloArrowRightValign:"center",
+                                soloArrowRightHOffset:20,
+                                soloArrowRightVOffset:0,
+        
+                                shadow:0,
+                                fullWidth:"on",
+                                fullScreen:"off",
+        
+                                spinner:"spinner2",
+        
+                                stopLoop:"on",
+                                stopAfterLoops:0,
+                                stopAtSlide:1,
+        
+                                shuffle:"off",
+        
+                                autoHeight:"off",
+                                forceFullWidth:"off",
+                                
+                                
+                                hideTimerBar:"on",
+                                hideThumbsOnMobile:"off",
+                                hideNavDelayOnMobile:1500,
+                                hideBulletsOnMobile:"off",
+                                hideArrowsOnMobile:"off",
+                                hideThumbsUnderResolution:0,hideSliderAtLimit:0,
+                                hideCaptionAtLimit:0,
+                                hideAllCaptionAtLilmit:0,
+                                startWithSlide:0					
+								});
+                        });	/*ready*/
+        
+                    </script>
+            </div>
+            <!-- Item 2*3 -->
+        </div><!-- Row 2 -->
+        
+        <!-- Row 3 -->
+        <div class="slidergridrow">
+        
+            <!-- Item 3*1 -->
+            <div class="slidergridcol">
+                <div id="rev_slider_17_7_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px;background-color:#E9E9E9;padding:0px; float:left;">
+                    
+                    <div id="rev_slider_17_7" class="rev_slider fullwidthabanner" style="display:none;max-height:360px;height:360px;">
+                        <ul>
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="2000" data-delay="8000"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="c1"  data-bgposition="center center" 
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                                
+                            <li data-transition="parallaxtoright" data-slotamount="1" data-masterspeed="2000" data-delay="8200"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="C1"  data-bgposition="center center" 
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                                
+                            <li data-transition="parallaxvertical" data-slotamount="1" data-masterspeed="2000" data-delay="8200"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="3-a"  data-bgposition="left bottom" 
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                    </div>
+                 </div>
+                 <script type="text/javascript">
+        
+                        /******************************************
+                            -	PREPARE PLACEHOLDER FOR SLIDER	-
+                        ******************************************/
+                        
+        
+                        var setREVStartSize = function() {
+                            var	tpopt = new Object();
+                                tpopt.startwidth = 640;
+                                tpopt.startheight = 360;
+                                tpopt.container = jQuery('#rev_slider_17_7');
+                                tpopt.fullScreen = "off";
+                                tpopt.forceFullWidth="off";
+        
+                            tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+                        };
+        
+                        /* CALL PLACEHOLDER */
+                        setREVStartSize();
+        
+        
+                        var tpj=jQuery;
+                        tpj.noConflict();
+                        var revapi17;
+        
+                        tpj(document).ready(function() {
+        
+                        if(tpj('#rev_slider_17_7').revolution == undefined)
+                            revslider_showDoubleJqueryError('#rev_slider_17_7');
+                        else
+                           revapi17 = tpj('#rev_slider_17_7').show().revolution(
+                            {
+                                dottedOverlay:"none",
+                                delay:9000,
+                                startwidth:640,
+                                startheight:360,
+                                hideThumbs:200,
+        
+                                thumbWidth:100,
+                                thumbHeight:50,
+                                thumbAmount:3,
+        
+                                navigationType:"none",
+                                navigationArrows:"none",
+                                navigationStyle:"round",
+        
+                                touchenabled:"on",
+                                onHoverStop:"off",
+        
+                                swipe_velocity: 0.7,
+                                swipe_min_touches: 1,
+                                swipe_max_touches: 1,
+                                drag_block_vertical: false,
+                                
+                                
+                                keyboardNavigation:"off",
+        
+                                navigationHAlign:"center",
+                                navigationVAlign:"bottom",
+                                navigationHOffset:0,
+                                navigationVOffset:20,
+        
+                                soloArrowLeftHalign:"left",
+                                soloArrowLeftValign:"center",
+                                soloArrowLeftHOffset:20,
+                                soloArrowLeftVOffset:0,
+        
+                                soloArrowRightHalign:"right",
+                                soloArrowRightValign:"center",
+                                soloArrowRightHOffset:20,
+                                soloArrowRightVOffset:0,
+        
+                                shadow:0,
+                                fullWidth:"on",
+                                fullScreen:"off",
+        
+                                spinner:"spinner2",
+        
+                                stopLoop:"on",
+                                stopAfterLoops:0,
+                                stopAtSlide:1,
+        
+                                shuffle:"off",
+        
+                                autoHeight:"off",
+                                forceFullWidth:"off",
+                                
+                                
+                                hideTimerBar:"on",
+                                hideThumbsOnMobile:"off",
+                                hideNavDelayOnMobile:1500,
+                                hideBulletsOnMobile:"off",
+                                hideArrowsOnMobile:"off",
+                                hideThumbsUnderResolution:0,
+								hideSliderAtLimit:0,
+                                hideCaptionAtLimit:0,
+                                hideAllCaptionAtLilmit:0,
+                                startWithSlide:0					
+								});
+                        });	/*ready*/
+        
+                    </script>
+            </div>
+            <!-- Item 3*1 -->
+        
+            <!-- Item 3*2 -->
+            <div class="slidergridcol">
+                <div id="rev_slider_18_8_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px;background-color:#E9E9E9;padding:0px;float:left;">
+                    
+                    <div id="rev_slider_18_8" class="rev_slider fullwidthabanner" style="display:none;max-height:360px;height:360px;">
+                        <ul>
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="2000" data-delay="8200"  data-saveperformance="off" >
+        
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="c2"  data-bgposition="center center" 
+                                    data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                                    
+                            <li data-transition="parallaxtoright" data-slotamount="1" data-masterspeed="2000" data-delay="8400"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="C2"  data-bgposition="center center" 
+                                    data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                                    
+                            <li data-transition="parallaxtoright" data-slotamount="1" data-masterspeed="2000" data-delay="8400"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="3-b"  data-bgposition="center bottom" 
+                                    data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                    </div>
+                    
+                 </div>
+                 <script type="text/javascript">
+        
+                        /******************************************
+                            -	PREPARE PLACEHOLDER FOR SLIDER	-
+                        ******************************************/
+                        
+        
+                        var setREVStartSize = function() {
+                            var	tpopt = new Object();
+                                tpopt.startwidth = 640;
+                                tpopt.startheight = 360;
+                                tpopt.container = jQuery('#rev_slider_18_8');
+                                tpopt.fullScreen = "off";
+                                tpopt.forceFullWidth="off";
+        
+                            tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+                        };
+        
+                        /* CALL PLACEHOLDER */
+                        setREVStartSize();
+        
+        
+                        var tpj=jQuery;
+                        tpj.noConflict();
+                        var revapi18;
+        
+                        tpj(document).ready(function() {
+        
+                        if(tpj('#rev_slider_18_8').revolution == undefined)
+                            revslider_showDoubleJqueryError('#rev_slider_18_8');
+                        else
+                           revapi18 = tpj('#rev_slider_18_8').show().revolution(
+                            {
+                                dottedOverlay:"none",
+                                delay:9000,
+                                startwidth:640,
+                                startheight:360,
+                                hideThumbs:200,
+        
+                                thumbWidth:100,
+                                thumbHeight:50,
+                                thumbAmount:3,
+        
+                                navigationType:"none",
+                                navigationArrows:"none",
+                                navigationStyle:"round",
+        
+                                touchenabled:"on",
+                                onHoverStop:"off",
+        
+                                swipe_velocity: 0.7,
+                                swipe_min_touches: 1,
+                                swipe_max_touches: 1,
+                                drag_block_vertical: false,
+                                
+                                
+                                keyboardNavigation:"off",
+        
+        
+                                navigationHAlign:"center",
+                                navigationVAlign:"bottom",
+                                navigationHOffset:0,
+                                navigationVOffset:20,
+        
+                                soloArrowLeftHalign:"left",
+                                soloArrowLeftValign:"center",
+                                soloArrowLeftHOffset:20,
+                                soloArrowLeftVOffset:0,
+        
+                                soloArrowRightHalign:"right",
+                                soloArrowRightValign:"center",
+                                soloArrowRightHOffset:20,
+                                soloArrowRightVOffset:0,
+        
+                                shadow:0,
+                                fullWidth:"on",
+                                fullScreen:"off",
+        
+                                spinner:"spinner2",
+        
+                                stopLoop:"on",
+                                stopAfterLoops:0,
+                                stopAtSlide:1,
+        
+                                shuffle:"off",
+        
+                                autoHeight:"off",
+                                forceFullWidth:"off",
+                                
+                                
+                                hideTimerBar:"on",
+                                hideThumbsOnMobile:"off",
+                                hideNavDelayOnMobile:1500,
+                                hideBulletsOnMobile:"off",
+                                hideArrowsOnMobile:"off",
+                                hideThumbsUnderResolution:0,hideSliderAtLimit:0,
+                                hideCaptionAtLimit:0,
+                                hideAllCaptionAtLilmit:0,
+                                startWithSlide:0					
+								});
+                        });	/*ready*/
+        
+                    </script>
+            </div>
+            <!-- Item 3*2 -->
+        
+            <!-- Item 3*3 -->
+            <div class="slidergridcol">
+                <div id="rev_slider_19_9_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px;background-color:#E9E9E9;padding:0px;float:left;">
+                    
+                    <div id="rev_slider_19_9" class="rev_slider fullwidthabanner" style="display:none;max-height:360px;height:360px;">
+                        <ul>
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="2000" data-delay="8400"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="c3"  data-bgposition="center center" 
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                                
+                            <li data-transition="parallaxtoright" data-slotamount="1" data-masterspeed="2000" data-delay="8600"  data-saveperformance="off">
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="C3"  data-bgposition="center center" 
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                            
+                            <li data-transition="parallaxtoright" data-slotamount="1" data-masterspeed="2000" data-delay="8600"  data-saveperformance="off" >
+                                <img src="http://placehold.it/640x360/ececec&text=Portfolio+Slider" alt="3-c"  data-bgposition="right bottom" 
+                                data-bgfit="cover" data-bgrepeat="no-repeat"></li>
+                         </ul>
+                         <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+        
+                        /******************************************
+                            -	PREPARE PLACEHOLDER FOR SLIDER	-
+                        ******************************************/
+                        
+        
+                        var setREVStartSize = function() {
+                            var	tpopt = new Object();
+                                tpopt.startwidth = 640;
+                                tpopt.startheight = 360;
+                                tpopt.container = jQuery('#rev_slider_19_9');
+                                tpopt.fullScreen = "off";
+                                tpopt.forceFullWidth="off";
+        
+                            tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+                        };
+        
+                        /* CALL PLACEHOLDER */
+                        setREVStartSize();
+        
+        
+                        var tpj=jQuery;
+                        tpj.noConflict();
+                        var revapi19;
+        
+                        tpj(document).ready(function() {
+        
+                        if(tpj('#rev_slider_19_9').revolution == undefined)
+                            revslider_showDoubleJqueryError('#rev_slider_19_9');
+                        else
+                           revapi19 = tpj('#rev_slider_19_9').show().revolution(
+                            {
+                                dottedOverlay:"none",
+                                delay:9000,
+                                startwidth:640,
+                                startheight:360,
+                                hideThumbs:200,
+        
+                                thumbWidth:100,
+                                thumbHeight:50,
+                                thumbAmount:3,
+        
+                                navigationType:"none",
+                                navigationArrows:"none",
+                                navigationStyle:"round",
+        
+                                touchenabled:"on",
+                                onHoverStop:"off",
+        
+                                swipe_velocity: 0.7,
+                                swipe_min_touches: 1,
+                                swipe_max_touches: 1,
+                                drag_block_vertical: false,
+                                
+                                
+                                keyboardNavigation:"off",
+        
+                                navigationHAlign:"center",
+                                navigationVAlign:"bottom",
+                                navigationHOffset:0,
+                                navigationVOffset:20,
+        
+                                soloArrowLeftHalign:"left",
+                                soloArrowLeftValign:"center",
+                                soloArrowLeftHOffset:20,
+                                soloArrowLeftVOffset:0,
+        
+                                soloArrowRightHalign:"right",
+                                soloArrowRightValign:"center",
+                                soloArrowRightHOffset:20,
+                                soloArrowRightVOffset:0,
+        
+                                shadow:0,
+                                fullWidth:"on",
+                                fullScreen:"off",
+        
+                                spinner:"spinner2",
+        
+                                stopLoop:"on",
+                                stopAfterLoops:0,
+                                stopAtSlide:1,
+        
+                                shuffle:"off",
+        
+                                autoHeight:"off",
+                                forceFullWidth:"off",
+                                
+                                
+                                hideTimerBar:"on",
+                                hideThumbsOnMobile:"off",
+                                hideNavDelayOnMobile:1500,
+                                hideBulletsOnMobile:"off",
+                                hideArrowsOnMobile:"off",
+                                hideThumbsUnderResolution:0,
+								hideSliderAtLimit:0,
+                                hideCaptionAtLimit:0,
+                                hideAllCaptionAtLilmit:0,
+                                startWithSlide:0					
+								
+								});   
+                        });	/*ready*/
+        
+                    </script>
+             </div>
+            <!-- Item 3*3 -->
+        </div><!-- Row 3 -->
+        <!-- **jQuery** --> 
+        <!-- **Slider Section - Ends** -->
+         </div>
+    	<div class="inner-wrapper">
+        	<!-- header div starts here -->
+            
+        	<header id="header" class="dt-sticky-menu slider-bottom">
+            	
+            	<div class="container">
+                	<div id="logo">
+                    	<a href="index.html">
+                    		<img title="" alt="" src="images/logo.png">
+                    	</a>
+                    </div>
+                    <!-- Menu div starts here -->
+                    <div class="menu-main-menu-container">
+                    	<nav id="main-menu">
+                        	<ul id="menu-main-menu">
+                            	<li class="current_page_item"><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#work">Work</a></li>
+                                <li><a href="#team">Team</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="shortcodes.html" class="external">Shortcodes</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Menu div ends here -->
+                </div>
+            </header>
+            <!-- header div ends here -->
+            <div id="main" class="top-slider">
+                <section id="about" class="content"> <!--About Section Starts Here -->
+                	<div class="main-title">
+                    	<div class="container">
+                        	<h2>About us</h2>
+                        </div>
+                    </div>
+                    <div class="content-main">
+                    	<div class="fullwidth-section">
+                            <div class="container">
+                                <!--Service Grid Starts Here -->
+                                <div class="dt-sc-one-fourth column animate no-space service-grid" data-animation="fadeInUp" data-delay="100">
+                                    <figure class="service-overlay">
+                                        <img src="http://placehold.it/1170x686/000000&text=Service+Image" alt="" title="">
+                                        <figcaption>
+                                            <h6> Creative <span> Design </span></h6>
+                                            <p> At vero eos et et iusto odio dignissimos ducimus qui blanditiis. </p>
+                                        </figcaption>			
+                                    </figure>
+                                    <div class="services" data-animation="fadeInUp" data-delay="100">
+                                        <p> Eo vero eos et iusto odio dignissimos qui blanditiis praesentium voluptatum odio corrupti.</p>
+                                        <p> Voluptatum odio ducimus qui atque corrupti. At vero eos et et iusto odio ducimus qui blanditiis.</p>
+                                	</div>
+                                </div>
+                                <div class="dt-sc-one-fourth column animate no-space service-grid" data-animation="fadeInUp" data-delay="100">
+                                	<div class="services" data-animation="fadeInUp" data-delay="100">
+                                        <p> Eo vero eos et iusto odio dignissimos qui blanditiis praesentium voluptatum odio corrupti.</p>
+                                        <p> Voluptatum odio ducimus qui atque corrupti. At vero eos et et iusto odio ducimus qui blanditiis.</p>
+                                	</div>
+                                    <figure class="service-overlay">
+                                        <img src="http://placehold.it/1170x686/000000&text=Service+Image" alt="" title="">
+                                        <figcaption>
+                                            <h6> Faster <span> Deployment </span></h6>
+                                            <p> At vero eos et et iusto odio dignissimos ducimus qui blanditiis. </p>
+                                        </figcaption>			
+                                    </figure>
+                                </div>
+                                <div class="dt-sc-one-fourth column animate no-space service-grid" data-animation="fadeInUp" data-delay="100">
+                                    <figure class="service-overlay">
+                                        <img src="http://placehold.it/1170x686/000000&text=Service+Image" alt="" title="">
+                                        <figcaption>
+                                             <h6> Better <span> Support</span></h6>
+                                            <p> At vero eos et et iusto odio dignissimos ducimus qui blanditiis. </p>
+                                        </figcaption>			
+                                    </figure>
+                                    <div class="services" data-animation="fadeInUp" data-delay="100">
+                                        <p> Eo vero eos et iusto odio dignissimos qui blanditiis praesentium voluptatum odio corrupti.</p>
+                                        <p> Voluptatum odio ducimus qui atque corrupti. At vero eos et et iusto odio ducimus qui blanditiis.</p>
+                                	</div>
+                                </div>
+                                <div class="dt-sc-one-fourth column animate no-space service-grid last" data-animation="fadeInUp" data-delay="100">
+                                	<div class="services" data-animation="fadeInUp" data-delay="100">
+                                        <p> Eo vero eos et iusto odio dignissimos qui blanditiis praesentium voluptatum odio corrupti.</p>
+                                        <p> Voluptatum odio ducimus qui atque corrupti. At vero eos et et iusto odio ducimus qui blanditiis.</p>
+                                	</div>
+                                    <figure class="service-overlay">
+                                        <img src="http://placehold.it/1170x686/000000&text=Service+Image" alt="" title="">
+                                        <figcaption>
+                                            <h6> Parallax <span> Background </span></h6>
+                                            <p> At vero eos et et iusto odio dignissimos ducimus qui blanditiis. </p>
+                                        </figcaption>			
+                                    </figure>
+                                </div>
+                                <!--Service Grid Ends Here -->
+                                
+                                <div class="circle"></div>
+								<div class="pie"></div>
+                                
+                                <div class="dt-sc-hr-invisible-small"></div>
+                                <div class="dt-sc-hr-invisible-small"></div>
+                                <div class="dt-sc-service-carousel-wrapper">
+                                    <div class="border-title">
+                                        <h3> Our Features </h3>
+                                    </div>
+                                    <div class="dt-sc-service-carousel aligncenter animate" data-animation="fadeInUp" data-delay="100"><!--Service Carousel Starts Here -->
+										<div class="column dt-sc-one-fourth first">
+											<div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-cog"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> Creative Design  </a></h4>
+                                                <ul>
+                                                    <li>Creative Concepts</li>
+                                                    <li>Advertising campaigns</li>
+                                                    <li>Copywriting</li>
+                                                    <li>Guerilla marketing</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-pencil"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> Lots of Features </a></h4>
+                                                <ul>
+                                                    <li>Responsive websites </li>
+                                                    <li>Advertising campaigns</li>
+                                                    <li>App design</li>
+                                                    <li>Creative Concepts</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-magic"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> Special Settings </a></h4>
+                                                <ul>
+                                                    <li>Online marketing</li>
+                                                    <li>Packaging</li>
+                                                    <li>Corporate identity</li>
+                                                    <li>Online strategy</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-fast-forward"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> Faster Deployment </a></h4>
+                                                <ul>
+                                                    <li>Guerilla marketing</li>
+                                                    <li>Typography</li>
+                                                    <li>Creative Concepts </li>
+                                                    <li>Brochures</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="column dt-sc-one-fourth first">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-weixin"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> Better Support </a></h4>
+                                                <ul>
+                                                    <li>Creative Concepts</li>
+                                                    <li>Advertising campaigns</li>
+                                                    <li>Copywriting</li>
+                                                    <li>Guerilla marketing</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-tablet"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> 100% Responsive </a></h4>
+                                                <ul>
+                                                    <li>Responsive websites </li>
+                                                    <li>Advertising campaigns</li>
+                                                    <li>App design</li>
+                                                    <li>Creative Concepts</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-sort-amount-asc"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> Parallax Background </a></h4>
+                                                <ul>
+                                                    <li>Online marketing</li>
+                                                    <li>Packaging</li>
+                                                    <li>Corporate identity</li>
+                                                    <li>Online strategy</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-star-half-full"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> Dark and Light Versions </a></h4>
+                                                <ul>
+                                                    <li>Guerilla marketing</li>
+                                                    <li>Typography</li>
+                                                    <li>Creative Concepts </li>
+                                                    <li>Brochures</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="column dt-sc-one-fourth first">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-video-camera"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> Video Slider </a></h4>
+                                                <ul>
+                                                    <li>Creative Concepts</li>
+                                                    <li>Advertising campaigns</li>
+                                                    <li>Copywriting</li>
+                                                    <li>Guerilla marketing</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-sort-amount-asc"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> Parallax Background </a></h4>
+                                                <ul>
+                                                    <li>Responsive websites </li>
+                                                    <li>Advertising campaigns</li>
+                                                    <li>App design</li>
+                                                    <li>Creative Concepts</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                	<span class="fa fa-weixin"> </span> 
+                                            	</div>
+                                            	<h4><a target="_blank" href="#"> Better Support </a></h4>
+                                            	<ul>
+                                                    <li>Online marketing</li>
+                                                    <li>Packaging</li>
+                                                    <li>Corporate identity</li>
+                                                    <li>Online strategy</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-magic"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> Special Settings </a></h4>
+                                                <ul>
+                                                    <li>Guerilla marketing</li>
+                                                    <li>Typography</li>
+                                                    <li>Creative Concepts </li>
+                                                    <li>Brochures</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>   <!--Service Carousel Ends Here --> 
+                                    <div id="carouselnav"></div>
+								</div>
+                            </div>
+                            <div class="dt-sc-hr-invisible"></div>
+						</div>
+                        <div class="fullwidth-section dt-sc-parallax-section about-parallax dark-bg aligncenter"><!--About Parallax Starts Here -->
+                            <div class="container">
+                                <div class="dt-sc-one-fourth column first animate" data-animation="fadeInUp" data-delay="100">
+                                    <div class="dt-sc-services ">
+                                    	<img src="images/services-1.png" alt="" title="">
+                                        <h2 class="dt-sc-num-count" data-value="125"> 125 </h2>
+                                        <p> Employees </p>
+                                    </div>
+                                </div>
+                                <div class="dt-sc-one-fourth column animate" data-animation="fadeInUp" data-delay="100">
+                                    <div class="dt-sc-services">
+                                    	<img src="images/services-2.png" alt="" title="">
+                                        <h2 class="dt-sc-num-count" data-value="100"> 100+ </h2>
+                                        <p> Projects </p>
+                                    </div>
+                                </div>
+                                <div class="dt-sc-one-fourth column animate" data-animation="fadeInUp" data-delay="100">
+                                    <div class="dt-sc-services">
+                                    	<img src="images/services-3.png" alt="" title="">
+                                        <h2 class="dt-sc-num-count" data-value="15320"> 15320 </h2>                                    
+                                        <p> Hours of Creativity </p>
+                                    </div>
+                                </div>
+                                <div class="dt-sc-one-fourth column animate" data-animation="fadeInUp" data-delay="100">
+                                    <div class="dt-sc-services">
+                                    	<img src="images/services-4.png" alt="" title="">
+                                        <h2 class="dt-sc-num-count" data-value="252"> 252 </h2>                                    
+                                        <p> Clients </p>
+                                    </div>
+                        		</div>
+                			</div>
+                        </div><!--About Parallax Ends Here -->
+                    </div>
+                </section> <!--About Section Ends Here -->
+                <section id="services" class="content"> <!--Services Section Starts Here -->
+                	<div class="main-title">
+                    	<div class="container">
+                        	<h2 class="animate" data-delay="100" data-animation="pullDown">Services</h2>
+                        </div>
+                    </div>
+                    <div class="content-main">
+                        <div class="fullwidth-section">
+                            <div class="container">
+                                <div class="dt-sc-hr-invisible-toosmall"></div>
+                                <div class="dt-sc-tabs-vertical-container animate" data-animation="fadeInUp" data-delay="100"><!--Vertical Tab Starts Here -->
+                                	<ul class="dt-sc-tabs-vertical-frame dt-sc-one-third column">
+                                    	<li><a href="#" class="current"><i class="fa fa-pencil"></i>Designing</a></li>
+                                        <li><a href="#"><i class="fa fa-tasks"></i>Development</a></li>
+                                        <li><a href="#"><i class="fa fa-truck"></i>Marketing</a></li>
+                                        <li><a href="#"><i class="fa fa-unlock-alt"></i>Online Security</a></li>
+                                        <li><a href="#"><i class="fa fa-mobile"></i>Mobile application</a></li>
+                                        <li><a href="#"><i class="fa fa-apple"></i>Social Data Form</a></li>
+                                    </ul>
+                                    <div class="dt-sc-tabs-vertical-frame-content dt-sc-two-third column last">
+                                        <img class="aligncenter" src="images/tabs-img.png" alt="" title="">
+                                        <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. </p>
+                                    </div>
+                                    <div class="dt-sc-tabs-vertical-frame-content dt-sc-two-third column last">
+                                        <i class="fa fa-tasks"></i>
+                                    	<h4> Development </h4>
+                                        <p>We are Minimalize from Magnitude. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages </p>
+                                        <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words Ipsum comes from sections. Latin professor at Hampden-Sydney College in Virginia, looked up </p>
+                                        <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  </p>
+                                    </div>
+                                    <div class="dt-sc-tabs-vertical-frame-content dt-sc-two-third column last">
+                                        <i class="fa fa-truck"> </i>
+                                    	<h4> Marketing </h4>
+                                        <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  </p>
+                                        <p>We are Minimalize from Magnitude. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages </p>
+                                        <p> Lorem Ipsum as their default model text, and publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web still we can induce text to improve the length sites still in their infancy. </p>
+                                    </div>
+                                    <div class="dt-sc-tabs-vertical-frame-content dt-sc-two-third column last">
+                                        <i class="fa fa-unlock-alt"></i>
+                                    	<h4> Online Security </h4>
+                                         <p> Lorem Ipsum as their default model text, and publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web still we can induce text to improve the length sites still in their infancy. </p>
+                                         <p>We are Minimalize from Magnitude. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages </p>
+                                        <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  </p>
+                                    </div>
+                                    <div class="dt-sc-tabs-vertical-frame-content dt-sc-two-third column last">
+                                        <i class="fa fa-mobile"></i>
+                                    	<h4> Mobile application </h4>
+                                        <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words Ipsum comes from sections. Latin professor at Hampden-Sydney College in Virginia, looked up </p>
+                                        <p>We are Minimalize from Magnitude. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages </p>
+                                        <p> Lorem Ipsum as their default model text, and publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web still we can induce text to improve the length sites still in their infancy. </p>
+                                    </div>
+                                    <div class="dt-sc-tabs-vertical-frame-content dt-sc-two-third column last">
+                                        <i class="fa fa-apple"></i>
+                                    	<h4> Social Data Form </h4>
+                                         <p>We are Minimalize from Magnitude. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages </p>
+                                        <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  </p>
+                                        <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words Ipsum comes from sections. Latin professor at Hampden-Sydney College in Virginia, looked up </p>
+                                    </div>
+                                </div><!--Vertical Tab Ends Here -->
+                            </div>
+                        </div>
+                        <div class="dt-sc-hr-invisible-large"></div>
+                        <div class="fullwidth-section dt-sc-parallax-section services-parallax dark-bg"><!--Service Parallax Starts Here -->
+                        	<div class="container">
+                                <div class="dt-sc-one-third column first animate" data-animation="fadeInUp" data-delay="100">
+                                    <div class="pricing-table">
+                                        <div class="dt-sc-pr-tb-col">
+                                            <div class="dt-sc-tb-header">
+                                                <div class="dt-sc-tb-title">
+                                                    <h5> Basic </h5>
+                                                </div>
+                                                <div class="dt-sc-price">
+                                                    <p>$40<span>/mo</span></p>
+                                                </div>
+                                            </div>
+                                            <ul class="dt-sc-tb-content">
+                                                <li>40 Unique Logins</li>
+                                                <li>1000GB Storage</li>
+                                                <li>Remote Support</li>
+                                                <li>Cloud Backup</li>
+                                                <li>20+ users</li>
+                                            </ul>
+                                            <div class="dt-sc-buy-now">
+                                                <a class="dt-sc-button small" target="_blank" href="#">Sign Up<i class="fa fa-check-circle-o"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dt-sc-one-third column animate" data-animation="fadeInUp" data-delay="100">
+                                	<div class="pricing-table selected">
+                                        <div class="dt-sc-pr-tb-col selected">
+                                            <div class="dt-sc-tb-header">
+                                                <div class="dt-sc-tb-title">
+                                                    <h5>Standard</h5>
+                                                </div>
+                                                <div class="dt-sc-price">
+                                                     <p>$200<span>/mo</span></p>
+                                                </div>
+                                            </div>
+                                            <ul class="dt-sc-tb-content">
+                                                <li>40 Unique Logins</li>
+                                                <li>1000GB Storage</li>
+                                                <li>Remote Support</li>
+                                                <li>Cloud Backup</li>
+                                                <li>20+ users</li>
+                                            </ul>
+                                            <div class="dt-sc-buy-now">
+                                                <a class="dt-sc-button small" target="_blank" href="#">Sign Up<i class="fa fa-check-circle-o"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dt-sc-one-third column animate" data-animation="fadeInUp" data-delay="100">
+                                	<div class="pricing-table">
+                                        <div class="dt-sc-pr-tb-col">
+                                            <div class="dt-sc-tb-header">
+                                                <div class="dt-sc-tb-title">
+                                                    <h5> Advanced </h5>
+                                                </div>
+                                                <div class="dt-sc-price">
+                                                     <p>$40<span>/mo</span></p>
+                                                </div>
+                                            </div>
+                                            <ul class="dt-sc-tb-content">
+                                                <li>40 Unique Logins</li>
+                                                <li>1000GB Storage</li>
+                                                <li>Remote Support</li>
+                                                <li>Cloud Backup</li>
+                                                <li>20+ users</li>
+                                            </ul>
+                                            <div class="dt-sc-buy-now">
+                                                <a class="dt-sc-button small" target="_blank" href="#">Sign Up<i class="fa fa-check-circle-o"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--Service Parallax Ends Here -->
+                    </div>
+				</section><!--Services Section Ends Here -->
+            	<section id="work" class="content"><!--Work Section Starts Here -->
+                    <div class="main-title">
+                        <div class="container">
+                            <h2 class="animate" data-delay="100" data-animation="pullDown">Works</h2>
+                        </div>
+                    </div>
+                    <div class="content-main">
+                        <div class="fullwidth-section">
+                            <div class="dt-sc-hr-invisible-toosmall"></div>
+                            <!--Portfolio Isotope Starts Here -->
+                            <div class="dt-sc-sorting-container animate" data-animation="fadeInUp" data-delay="100">
+                                <a data-filter=".all-sort" title="6" href="#" class="dt-sc-tooltip-top dt-sc-button small active-sort" >All</a>
+                                <a data-filter=".blog-sort" href="#" title="1" class="dt-sc-tooltip-top dt-sc-button small">Blog</a>
+                                <a data-filter=".photography-sort" href="#" title="3" class="dt-sc-tooltip-top dt-sc-button small">Photography</a>
+                                <a data-filter=".webdesign-sort" href="#" title="3" class="dt-sc-tooltip-top dt-sc-button small">Webdesign</a>
+                                <a data-filter=".woocommerce-sort" href="#" title="3" class="dt-sc-tooltip-top dt-sc-button small">Outdoor</a>
+                            </div>
+                            <div class="dt-sc-portfolio-container isotope no-space">
+                                <div class="portfolio column gallery no-space all-sort blog-sort woocommerce-sort dt-sc-one-half">
+                                    <figure>
+                                        <img src="http://placehold.it/800x400/000000&text=Portfolio+Image" alt="" title="">
+                                        <figcaption>
+                                            <div class="fig-content">
+                                                <h5> <a href="portfolio-detail.html"> Sweet Candy Packaging </a> </h5><br>
+                                                <a href="portfolio-detail.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a>	
+                                            </div>
+                                        </figcaption>
+                                     </figure>
+                                 </div>
+                                 <div class="portfolio column gallery no-space all-sort photography-sort woocommerce-sort dt-sc-one-half">
+                                        <figure>
+                                        <img src="http://placehold.it/800x400/000000&text=Portfolio+Image" alt="" title="">
+                                        <figcaption>
+                                            <div class="fig-content">
+                                                <h5> <a href="portfolio-detail.html"> Live and Let Live </a> </h5><br>
+                                                <a href="portfolio-detail.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a>	
+                                            </div>
+                                        </figcaption>
+                                     </figure>
+                                 </div>
+                                 <div class="portfolio column gallery no-space all-sort webdesign-sort photography-sort dt-sc-one-half">
+                                        <figure>
+                                        <img src="http://placehold.it/800x400/000000&text=Portfolio+Image" alt="" title="">
+                                        <figcaption>
+                                            <div class="fig-content">
+                                                <h5> <a href="portfolio-detail.html"> Begin With a Smile </a> </h5><br>
+                                                <a href="portfolio-detail.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a>	
+                                            </div>
+                                        </figcaption>
+                                     </figure>
+                                 </div>
+                                 <div class="portfolio column gallery no-space all-sort woocommerce-sort webdesign-sort dt-sc-one-half">
+                                        <figure>
+                                        <img src="http://placehold.it/800x400/000000&text=Portfolio+Image" alt="" title="">
+                                        <figcaption>
+                                            <div class="fig-content">
+                                                <h5> <a href="portfolio-detail.html"> Love and Life </a> </h5><br>
+                                                <a href="portfolio-detail.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a>	
+                                            </div>
+                                        </figcaption>
+                                     </figure>
+                                 </div>
+                            </div>
+                            <!--Portfolio Isotope Ends Here -->
+                            <div class="dt-sc-hr-invisible"></div>
+                            <a class="dt-sc-button load-more">Load More</a>
+                            <div class="dt-sc-hr-invisible"></div>
+                        </div>
+                        <div class="fullwidth-section dt-sc-parallax-section work-parallax dark-bg"><!--Work Parallax Starts Here -->
+                            <div class="container">
+                                <div class="dt-sc-partner-carousel-wrapper animate" data-animation="fadeInUp" data-delay="100">
+                                    <ul class="dt-sc-partner-carousel">
+                                        <li><a href="#"><img src="http://placehold.it/243x64/000000&text=Partner+Logo" alt=""></a></li>
+                                        <li><a href="#"><img src="http://placehold.it/243x64/000000&text=Partner+Logo" alt=""></a></li>
+                                        <li><a href="#"><img src="http://placehold.it/243x64/000000&text=Partner+Logo" alt=""></a></li>
+                                        <li><a href="#"><img src="http://placehold.it/243x64/000000&text=Partner+Logo" alt=""></a></li>
+                                        <li><a href="#"><img src="http://placehold.it/243x64/000000&text=Partner+Logo" alt=""></a></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </div><!--Work Parallax Ends Here -->
+                    </div>
+					</section><!--Work Section Ends Here -->
+					<section id="team" class="content"><!--Team Section Starts Here -->
+                        <div class="main-title">
+                            <div class="container">
+                                <h2 class="animate" data-delay="100" data-animation="pullDown">Our Team</h2>
+                            </div>
+                        </div>
+                        <div class="content-main">
+                            <div class="container">
+                            	<div class="dt-sc-team-carousel-wrapper"><!--Team Carousel Starts Here -->
+                                    <div class="dt-sc-hr-invisible-toosmall"></div>
+                                    <div class="dt-sc-team-carousel animate" data-animation="fadeInUp" data-delay="100">
+                                    	<div class="dt-sc-one-fourth column">
+                                            <div class="dt-sc-team">
+                                                <figure class="dt-sc-entry-thumb">
+                                                    <a href="#"> <img src="http://placehold.it/269x316/000000&text=Team+Image" alt="" title=""> </a> 
+                                                    <div class="dt-sc-team-cmt">
+                                                     	<p> We won't Express. But our Portfolios will! </p> 
+                                                    </div> 
+                                                    <figcaption>
+                                                        <h4> Ram </h4>
+                                                        <span> CEO & Founder </span>
+                                                    </figcaption>
+                                                </figure>
+                                                <ul class="dt-sc-social-icons">
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="last dt-sc-tooltip-bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="dt-sc-tooltip-bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="dt-sc-tooltip-bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="last dt-sc-tooltip-bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="dt-sc-one-fourth column">
+                                            <div class="dt-sc-team">
+                                                <figure class="dt-sc-entry-thumb">
+                                                    <a href="#"> <img src="http://placehold.it/269x316/000000&text=Team+Image" alt="" title=""> </a> 
+                                                    <div class="dt-sc-team-cmt">
+                                                     	<p> We won't Express. But our Portfolios will! </p> 
+                                                    </div>
+                                                    <figcaption>
+                                                        <h4> Sandra Catherine </h4>
+                                                        <span> PSD Designer </span>
+                                                    </figcaption>
+                                                </figure>
+                                                <ul class="dt-sc-social-icons">
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="last dt-sc-tooltip-bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="dt-sc-tooltip-bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="dt-sc-tooltip-bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="last dt-sc-tooltip-bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="dt-sc-one-fourth column">
+                                            <div class="dt-sc-team">
+                                                <figure class="dt-sc-entry-thumb">
+                                                    <a href="#"> <img src="http://placehold.it/269x316/000000&text=Team+Image" alt="" title=""> </a> 
+                                                    <div class="dt-sc-team-cmt">
+                                                     	<p> We won't Express. But our Portfolios will! </p> 
+                                                    </div>
+                                                    <figcaption>
+                                                        <h4> Tara Streling </h4>
+                                                        <span> HTML Designer </span>
+                                                    </figcaption>
+                                                </figure>
+                                                <ul class="dt-sc-social-icons">
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="last dt-sc-tooltip-bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="dt-sc-tooltip-bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="dt-sc-tooltip-bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="last dt-sc-tooltip-bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="dt-sc-one-fourth column">
+                                            <div class="dt-sc-team">
+                                                <figure class="dt-sc-entry-thumb">
+                                                    <a href="#"> <img src="http://placehold.it/269x316/000000&text=Team+Image" alt="" title=""> </a> 
+                                                    <div class="dt-sc-team-cmt">
+                                                     	<p> We won't Express. But our Portfolios will! </p> 
+                                                    </div>
+                                                    <figcaption>
+                                                        <h4> John Paul </h4>
+                                                        <span> Customer Support </span>
+                                                    </figcaption>
+                                                   </figure>
+                                                <ul class="dt-sc-social-icons">
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="last dt-sc-tooltip-bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="dt-sc-tooltip-bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="dt-sc-tooltip-bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="last dt-sc-tooltip-bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="dt-sc-one-fourth column">
+                                            <div class="dt-sc-team">
+                                                <figure class="dt-sc-entry-thumb">
+                                                    <a href="#"> <img src="http://placehold.it/269x316/000000&text=Team+Image" alt="" title=""> </a> 
+                                                    <div class="dt-sc-team-cmt">
+                                                     	<p> We won't Express. But our Portfolios will! </p> 
+                                                    </div>
+                                                    <figcaption>
+                                                        <h4> Chris Partha </h4>
+                                                        <span> WordPress Expert </span>
+                                                    </figcaption>
+                                                    </figure>
+                                                <ul class="dt-sc-social-icons">
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="last dt-sc-tooltip-bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="dt-sc-tooltip-bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="dt-sc-tooltip-bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                                    </li>
+                                                    <li class="dt-sc-one-fourth column no-space">
+                                                        <a href="#" class="last dt-sc-tooltip-bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-arrows">
+                                        <a href="" class="carousel-prev"><i class="fa fa-angle-left"></i></a>
+                                        <a href="" class="carousel-next"><i class="fa fa-angle-right"></i></a>
+                                    </div>
+                                </div><!--Team Carousel Ends Here -->
+                            	<div class="dt-sc-hr-invisible-medium"></div>
+                                <div class="dt-sc-hr-invisible-small"></div>
+                                <div class="dt-sc-hr-invisible-toosmall"></div>
+                                <div class="border-title">
+                                    <h3> Our Progress </h3>
+                                </div>
+                                <!--Progress Bar Starts Here -->
+                                <div class="dt-sc-one-half column first">
+                                	<h4 class="alignleft"> Design </h4>
+                                    <div class="our-progress">
+										<div class="specials"> PSD </div>
+                                        <div class="progressbar" data-perc="70">
+                                            <div class="bar">  </div>
+                                            <div class="label"><span></span><div class="perc"></div></div>
+                                        </div>
+                                    </div>
+                                    <div class="our-progress">
+										<div class="specials"> HTML </div>
+                                        <div class="progressbar" data-perc="75">
+                                            <div class="bar">  </div>
+                                            <div class="label adj"><span></span><div class="perc"></div></div>
+                                        </div>
+                                    </div>
+                                    <div class="our-progress">
+										<div class="specials"> CorelDraw </div>
+                                        <div class="progressbar" data-perc="50">
+                                            <div class="bar">  </div>
+                                            <div class="label"><span></span><div class="perc"></div></div>
+                                        </div>
+                                    </div>
+								</div>
+                                <div class="dt-sc-one-half column">
+                                	<h4 class="alignleft"> Development </h4>
+                                    <div class="our-progress">
+										<div class="specials"> WordPress </div>
+                                        <div class="progressbar" data-perc="90">
+                                            <div class="bar">  </div>
+                                            <div class="label adj"><span></span><div class="perc"></div></div>
+                                        </div>
+                                    </div>
+                                    <div class="our-progress">
+										<div class="specials"> BigCommerce </div>
+                                        <div class="progressbar" data-perc="45">
+                                            <div class="bar">  </div>
+                                            <div class="label"><span></span><div class="perc"></div></div>
+                                        </div>
+                                    </div>
+                                    <div class="our-progress">
+										<div class="specials"> Shopify </div>
+                                        <div class="progressbar" data-perc="70">
+                                            <div class="bar">  </div>
+                                            <div class="label"><span></span><div class="perc"></div></div>
+                                        </div>
+                                    </div>                                    
+								</div>
+                                <!--Progress Bar Ends Here -->
+							</div>
+                            <div class="dt-sc-hr-invisible"></div>
+                            <div class="dt-sc-hr-invisible"></div>
+                            <div class="fullwidth-section dt-sc-parallax-section testimonial-parallax dark-bg"><!--Testimonial Parallax Starts Here -->
+                                <div class="container">
+                                    <div class="dt-sc-testimonial-carousel-wrapper animate" data-animation="fadeInUp" data-delay="100">
+                                        <ul class="dt-sc-testimonial-carousel">
+                                            <li class="dt-sc-testimonial">
+                                            	<div class="author">
+                                            		<img src="http://placehold.it/100x100/fff" alt="" title="">
+                                                </div>
+                                            	<blockquote><q>Nunc quam neque, rutrum sit amet dolor vitae, adipiscing tempus elit. </q></blockquote>
+                                                <p> <cite> Roman Reigns </cite> <br/> CEO, ABS Communications </p>
+                                            </li>
+                                            <li class="dt-sc-testimonial">
+                                            	<div class="author">
+                                            		<img src="http://placehold.it/100x100/fff" alt="" title="">
+                                                </div>
+                                            	<blockquote><q>Etiam bibendum condimentum diam. Nunc quam neque, rutrum sit amet dolor vitae, adipiscing tempus elit. </q></blockquote>
+                                                <p> <cite> Seth Rollins </cite> <br/> Managing Director, King Corporation</p>
+                                            </li>
+                                            <li class="dt-sc-testimonial">
+                                            	<div class="author">
+                                            		<img src="http://placehold.it/100x100/fff" alt="" title="">
+                                                </div>
+                                            	<blockquote><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.  </q></blockquote>
+                                                <p> <cite> Dean Ambrose </cite> <br/> Owner, DG Associates </p>
+                                            </li>
+                                            <li class="dt-sc-testimonial">
+                                            	<div class="author">
+                                            		<img src="http://placehold.it/100x100/fff" alt="" title="">
+                                                </div>
+                                            	<blockquote><q>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </q></blockquote>
+                                                <p> <cite> Jack Swagger </cite> <br/> Marketing Manager, KG Enterprises </p>
+                                            </li>
+                                            <li class="dt-sc-testimonial">
+                                            	<div class="author">
+                                            		<img src="http://placehold.it/100x100/fff" alt="" title="">
+                                                </div>
+                                            	<blockquote><q>Etiam bibendum condimentum diam. Nunc quam neque, litora torquent per conubia nostra, per inceptos himenaeos. rutrum sit amet dolor, adipiscing tempus elit.</q></blockquote>
+                                                <p> <cite> Dolph Zinggler </cite> <br/> Team Leader, Sigmatel </p>
+                                            </li>                                        
+										</ul>
+                                    </div>
+                                    <div id="pager">
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                        <a href=""></a>
+                                    </div>
+                                 </div>
+                            </div><!--Testimonial Parallax Ends Here -->
+						</div>
+                </section><!--Team Section Ends Here -->
+                <section id="blog" class="content"><!--Blog Section Starts Here -->
+                    <div class="main-title">
+                        <div class="container">
+                            <h2 class="animate" data-delay="100" data-animation="pullDown">Blog</h2>
+                        </div>
+                    </div>
+					<div class="content-main">
+                    	<div class="container">
+                        	<!--Blog Posts Starts Here -->
+                            <div class="blog-items apply-isotope scroll">
+                                <div class="dt-sc-one-third first column">
+                                    <article class="blog-entry">
+                                        <div class="entry-thumb">
+                                            <a href="blog-detail.html"><img src="http://placehold.it/370x220/000000&text=Blog+Image" alt="" title=""></a>
+                                        </div>
+                                        <div class="entry-details">
+                                            <div class="entry-title">
+                                                <h4> <a href="blog-detail.html">Creative talks of 2014</a> </h4>
+                                            </div>
+                                            <div class="entry-metadata">
+                                                 <p class="date"> <i class="fa fa-calendar"></i> 22 Jan 2014 </p>
+                                                 <p class="author"> <i class="fa fa-user"></i> Posted By:  <a href="#" title="ram"> admin </a> </p>
+                                                 <p><a href="#"><i class="fa fa-comments"></i>14</a></p>
+                                            </div>
+                                            <div class="entry-body">
+                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="dt-sc-one-third column">
+                                    <article class="blog-entry">
+                                        <div class="entry-thumb">
+                                            <a href="blog-detail-with-sidebar.html"><img src="http://placehold.it/370x290/000000&text=Blog+Image" alt="" title=""></a>
+                                        </div>
+                                        <div class="entry-details">
+                                            <div class="entry-title">
+                                                <h4> <a href="blog-detail.html">Alone in the Backyard</a> </h4>
+                                            </div>
+                                            <div class="entry-metadata">
+                                                 <p class="date"> <i class="fa fa-calendar"></i> Mar 05 2014 </p>
+                                                 <p class="author"> <i class="fa fa-user"></i> By :  <a href="#" title="ram"> ram </a> </p>
+                                                 <p><a href="#"><i class="fa fa-comments"></i>4</a></p>
+                                            </div>
+                                            <div class="entry-body">
+                                                <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="dt-sc-one-third column">
+                                    <article class="blog-entry">
+                                        <div class="entry-details">
+                                            <div class="entry-title">
+                                                <h4> <a href="blog-detail.html">A Text Post</a> </h4>
+                                            </div>
+                                            <div class="entry-metadata">
+                                                 <p class="date"> <i class="fa fa-calendar"></i> Mar 05 2014 </p>
+                                                 <p class="author"> <i class="fa fa-user"></i> By :  <a href="#" title="ram"> ram </a> </p>
+                                                 <p><a href="#"><i class="fa fa-comments"></i>4</a></p>
+                                            </div>
+                                            <div class="entry-body">
+                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="dt-sc-one-third first column">
+                                    <article class="blog-entry">
+                                        <div class="entry-thumb">
+                                            <video controls>
+                                                <source src="video/small.webm" type='video/webm;codecs="vp8, vorbis"' />
+                                                <source src="video/small.ogv" type='video/ogg;codecs="vp8, vorbis"' />
+                                                <source src="video/small.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />  
+                                                Your browser does not support the video element.                                          
+                                            </video>
+                                        </div>
+                                        <div class="entry-details">
+                                            <div class="entry-title">
+                                                <h4> <a href="blog-detail.html">A road to Heaven</a> </h4>
+                                            </div>
+                                            <div class="entry-metadata">
+                                                 <p class="date"> <i class="fa fa-calendar"></i> Mar 05 2014 </p>
+                                                 <p class="author"> <i class="fa fa-user"></i> By :  <a href="#" title="ram"> ram </a> </p>
+                                                 <p><a href="#"><i class="fa fa-comments"></i>4</a></p>
+                                            </div>
+                                            <div class="entry-body">
+                                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue this is an exact detartmation.&nbsp;We denounce with righteous indignation and dislike men who are so beguiled […]</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="dt-sc-one-third column">
+                                    <article class="blog-entry">
+                                        <div class="entry-thumb">
+                                            <audio controls="">
+                                                <source type="audio/mpeg" src="video/small.mp3" />
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                        </div>
+                                        <div class="entry-details">
+                                            <div class="entry-title">
+                                                <h4> <a href="blog-detail-with-sidebar.html">Yummy Loops</a> </h4>
+                                            </div>
+                                            <div class="entry-metadata">
+                                                 <p class="date"> <i class="fa fa-calendar"></i> Mar 05 2014 </p>
+                                                 <p class="author"> <i class="fa fa-user"></i> By :  <a href="#" title="ram"> ram </a> </p>
+                                                 <p><a href="#"><i class="fa fa-comments"></i>4</a></p>
+                                            </div>
+                                            <div class="entry-body">
+                                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue this is an exact detartmation.&nbsp;We denounce with righteous indignation and dislike men who are so beguiled […]</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="dt-sc-one-third column">
+                                    <article class="blog-entry">
+                                        <div class="entry-thumb">
+                                            <a href="blog-detail-with-sidebar.html"><img src="http://placehold.it/370x290/000000&text=Blog+Image" alt="" title=""></a>
+                                        </div>
+                                        <div class="entry-details">
+                                            <div class="entry-title">
+                                                <h4> <a href="blog-detail-with-sidebar.html">2014 Picture Gallery</a> </h4>
+                                            </div>
+                                            <div class="entry-metadata">
+                                                 <p class="date"> <i class="fa fa-calendar"></i> Mar 05 2014 </p>
+                                                 <p class="author"> <i class="fa fa-user"></i> By :  <a href="#" title="ram"> ram </a> </p>
+                                                 <p><a href="#"><i class="fa fa-comments"></i>4</a></p>
+                                            </div>
+                                            <div class="entry-body">
+                                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue this is an exact detartmation.&nbsp;We denounce with righteous indignation and dislike men who are so beguiled […]</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="dt-sc-one-third column">
+                                    <article class="blog-entry">
+                                        <div class="entry-thumb">
+                                            <ul class="blog-slider">
+                                                <li> <img src="http://placehold.it/1170x686/000000&text=Blog+Slider1" alt="" title=""> </li>
+                                                <li> <img src="http://placehold.it/1170x686/000000&text=Blog+Slider2" alt="" title=""> </li>
+                                                <li> <img src="http://placehold.it/1170x686/000000&text=Blog+Slider3" alt="" title=""> </li>
+                                                <li> <img src="http://placehold.it/1170x686/000000&text=Blog+Slider4" alt="" title=""> </li>
+                                            </ul>
+                                        </div>
+                                        <div class="entry-details">
+                                            <div class="entry-title">
+                                                <h4> <a href="blog-detail.html">2014 Picture Gallery</a> </h4>
+                                            </div>
+                                            <div class="entry-metadata">
+                                                 <p class="date"> <i class="fa fa-calendar"></i> Mar 05 2014 </p>
+                                                 <p class="author"> <i class="fa fa-user"></i> By :  <a href="#" title="ram"> ram </a> </p>
+                                                 <p><a href="#"><i class="fa fa-comments"></i>4</a></p>
+                                            </div>
+                                            <div class="entry-body">
+                                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue this is an exact detartmation.&nbsp;We denounce with righteous indignation and dislike men who are so beguiled […]</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="dt-sc-one-third column">
+                                    <article class="blog-entry">
+                                        <div class="entry-thumb">
+                                            <a href="blog-detail-with-sidebar.html"><img src="http://placehold.it/370x220/000000&text=Blog+Image" alt="" title=""></a>
+                                        </div>
+                                        <div class="entry-details">
+                                            <div class="entry-title">
+                                                <h4> <a href="blog-detail-with-sidebar.html">2014 Picture Gallery</a> </h4>
+                                            </div>
+                                            <div class="entry-metadata">
+                                                 <p class="date"> <i class="fa fa-calendar"></i> Mar 05 2014 </p>
+                                                 <p class="author"> <i class="fa fa-user"></i> By :  <a href="#" title="ram"> ram </a> </p>
+                                                 <p><a href="#"><i class="fa fa-comments"></i>4</a></p>
+                                            </div>
+                                            <div class="entry-body">
+                                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue this is an exact detartmation.&nbsp;We denounce with righteous indignation and dislike men who are so beguiled […]</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="dt-sc-hr-invisible-small"></div>
+							<a href="blog-main.html" class="dt-sc-button view-all"> Read All </a>
+						</div>
+                        <!--Blog Posts Ends Here -->
+                        <div class="dt-sc-hr-invisible"></div>
+                    </div>
+				</section><!--Blog Section Ends Here -->
+                <section id="contact" class="content"><!--Contact Section Starts Here -->
+                    <div class="main-title">
+                        <div class="container">
+                            <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact</h2>
+                        </div>
+					</div>
+                    <div class="content-main">
+                        <div class="fullwidth-section dt-sc-parallax-section contact-parallax dark-bg">
+                            <div class="container">
+                                <div data-animation="fadeInUp" data-delay="100">
+                                	<div class="dt-sc-hr-invisible"></div>
+                          			<div id="ajax_contactform_msg"> </div>
+                                    <form method="post" action="php/send.php" class="enquiry-form" name="enqform">
+                                        <p class="dt-sc-one-half column first">
+                                            <input type="text" required="" name="txtname" title="Please enter your name" placeholder="Enter Your Name *">
+                                        </p>
+                                        <p class="dt-sc-one-half column">
+                                            <input type="email" required="" autocomplete="off" name="txtemail" title="Please enter your valid email_id" placeholder="Enter Your Email *">
+                                        </p>
+                                        <p class="textarea">
+                                            <textarea required="" rows="3" cols="5" name="txtmessage" title=" Please enter your message" placeholder="Type Your Message *"></textarea>
+                                        </p>
+                                        <p class="dt-sc-button small">
+                                            <input type="submit" value="Send Email" name="submit">
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-media type1">
+                            <ul class="aligncenter">
+                                <li class="dt-sc-one-fifth column first no-space"><a href="#" class="dt-sc-tooltip-top" title="Facebook"> <i class="fa fa-facebook"></i></a></li>
+                                <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top" title="YouTube"><i class="fa fa-youtube"></i></a></li>
+                                <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                       <div class="fullwidth-section dark-bg dt-sc-contact-info">
+                       		<div class="dt-sc-one-half column no-space">
+                                <div class="contact-info">
+                                	<h3>Contact Info</h3>
+                                    <ul>
+                                        <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> Address: No-58 A, East Madison St, Baltimore, MD, USA </li>
+                                        <li><span class="ico"><i class="fa fa-phone"></i></span> <div> </div>Phone: +1 200 258 2145</li>
+                                        <li><span class="ico"><i class="fa fa-paperclip"></i></span> <div> </div>Fax: +1 100 458 2345</li>
+                                        <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:yourname@somemail.com">yourname@somemail.com</a></li>
+                                        <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://wedesignthemes.com">http://wedesignthemes.com</a></li>
+                                    </ul>
+                                </div>
+							</div>
+                            <div class="dt-sc-one-half column no-space">
+								<div id="contact_map"> </div> 
+                        	</div>
+                        </div>
+                        
+                        <div class="newsletter"><!--Newsletter Form Starts Here -->
+                        	<div class="dt-sc-hr-invisible-small"> </div>
+                        	<div class="container">
+                                <form name="frmnewsletter" method="post" class="animate dt-sc-one-half column first" data-animation="stretchLeft" action="php/subscribe.php">
+                                    <div id="mailchimp-form">
+                                        <p> <span class="fa fa-envelope-o"> </span> <input type="email" placeholder="Enter Email Address" name="mc_email"  required> </p>
+                                        <p class="submit"> <input type="submit" name="submit" class="nl-submit" value="Subscribe"> </p>
+                                    </div>
+                                    <div id="ajax_subscribe_msg"></div>
+                                </form>
+                                <p class="newsletter-text animate dt-sc-one-half column" data-animation="stretchRight"> <i class="fa fa-envelope-o"> </i> Feel free to place your Mail_ID and Subscribe to our Newsletter here. So that, you can receive our exiting Updates and Offers with no wait! </p>
+                            </div><!--Newsletter Form Ends Here -->
+                        	<div class="dt-sc-hr-invisible-small"> </div>
+                    	</div>   
+                        <div class="fullwidth-section dt-sc-parallax-section twitter-parallax dark-bg">
+                        	<div class="container aligncenter">
+                               	<i class="fa fa-twitter"></i>
+                                <div class="latest-tweets tweets_container animate" data-delay="100" data-animation="pullDown"> </div>
+                            </div>
+                        </div>
+                        <footer> <!--Footer Starts Here -->              
+                            <div class="copyright">
+                            	<a href="#home" class="dt-sc-tooltip-top" id="toTop" title="Back To Top"> </a>
+                                <div class="container">
+                                   <p> Copyright © 2014 Minimalize Theme All Rights Reserved | <a href="#"> Design Themes</a> </p>
+                                </div>
+                            </div>
+						</footer><!--Footer Ends Here -->
+                    </div>
+				</section><!--Contact Section Ends Here -->
+            </div>
+        </div>
+    </div>
+	<!-- Wrapper div ends here -->
+    
+	<script type="text/javascript" src="js/jquery-easing-1.3.js"></script>
+	<script type="text/javascript" src="js/plugins.min.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+    
+    <script type="text/javascript" src="js/jquery.meanmenu.min.js"></script>     
+	<script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>  
+    <script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>  
+    
+    <script type="text/javascript" src="js/jquery.nav.min.js"></script>    
+    <script type="text/javascript" src="js/jquery.tabs.min.js"></script>      
+    <script type="text/javascript" src="js/jquery.sticky.min.js"></script>  	
+    
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tipTip.minified.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script> 	
+    
+	<script type="text/javascript" src="js/jquery.parallax.min.js"></script>
+	<script type="text/javascript" src="js/toucheffects.min.js"></script>
+    
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/pace.min.js"></script>
+
+	<script src="js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+	<script src="js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+       
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    
+    <script src="js/jquery.gmap.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+           
+    <script type="text/javascript">
+		jQuery.noConflict();	
+		jQuery(function($){
+			$('.blog-slider').bxSlider({
+				auto: true,
+				mode: 'fade',
+				pager: ''
+			});
+		});
+	</script>
+    
+</body>
+</html>
